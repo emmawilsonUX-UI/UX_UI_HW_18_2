@@ -1,0 +1,40 @@
+/* Navivation*/
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+
+#navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: right;
+    justify-content: space-evenly;
+  }
+
+#navigation p {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Hero Image*/
+.hero-image {
+    background-image: url("images/Align.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
